@@ -1,0 +1,74 @@
+.main {
+    background-color: white;
+    width: 100%;
+    overflow: auto;
+    width: 350px;
+    height: 380px;
+    border: 0px solid black;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, .2);
+}
+
+
+.messageLeft {      
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 94%;
+    margin-left: 4%;
+
+}
+
+.messageRight {      
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 94%;
+}
+
+.pfpChat {
+    background-color: rgb(225, 132, 246);
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+    margin-top: 20px;
+}
+
+.textContainerLeft {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 170px;
+    background-color: rgb(215, 196, 196);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 22px;
+    
+}
+
+.textContainerRight {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 170px;
+    background-color: rgb(150, 188, 248);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 22px;
+    
+}
+
+.messageAdmin {      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    /* border: 1px solid red; */
+}
+
+.textContainerAdmin {
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 170px;
+    border-radius: 12px;
+    padding: 6px ;
+    margin-top: 10px;
+    background-color: rgb(238, 241, 245);
+}

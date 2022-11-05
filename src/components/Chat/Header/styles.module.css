@@ -1,0 +1,44 @@
+
+   /* ---- HEADER ----  */
+
+   .header {      
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 123, 235);
+    height: 100px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 0 20px;
+    width: 310px;
+    margin-top: 30px
+}
+
+.pfp {
+    background-color: rgb(103, 238, 137);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+
+.username {
+    font-size: 1.8em;
+    margin-left: 20px;;
+    color: white
+
+}
+
+.closeBtn {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    color: white
+}
+
+.avatarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-left: 20px
+  }
